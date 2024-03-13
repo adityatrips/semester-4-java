@@ -19,7 +19,7 @@ public class App {
     frame.add(okButton);
     frame.add(cancelButton);
 
-    frame.setSize(300, 200);
+    frame.setSize(800, 600);
     frame.setVisible(true);
 
     frame.addMouseMotionListener(new MouseMotionAdapter() {
