@@ -1,3 +1,5 @@
+package studentmgmt;
+
 public interface Sports {
   static final int sportsWeightage = 6;
 

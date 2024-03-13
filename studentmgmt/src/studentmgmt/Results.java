@@ -1,3 +1,5 @@
+package studentmgmt;
+
 public class Results extends Test implements Sports {
   public void putWt() {
     System.out.println("Sports Wt: " + sportsWeightage);

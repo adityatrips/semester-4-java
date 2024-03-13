@@ -1,8 +1,10 @@
-class B extends Thread {
+package threadywithyield;
+
+class C extends Thread {
   public void run() {
     for (int i = 1; i <= 10; i++) {
-      if (i == 5) {
-        B.yield();
+      if (i == 3) {
+        C.yield();
         System.out.println("A: " + i);
       }
     }

@@ -1,3 +1,5 @@
+package studentmgmt;
+
 public class Student {
   int rollno;
 

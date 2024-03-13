@@ -1,3 +1,5 @@
+package studentmgmt;
+
 public class Test extends Student {
   float mark1, mark2;
 
